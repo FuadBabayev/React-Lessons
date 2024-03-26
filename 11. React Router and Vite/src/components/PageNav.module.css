@@ -1,0 +1,20 @@
+/* ! CSS Module her component ucun 1 file yaratdiqimizi ucun calisaqki ana class olsun meselen .nav ve diger classlar ise onun icindeki classlar olsun */
+/* *  Bu daha cox diger css fileleri ile qarismasinin qarsisini almaq ucundur */
+
+.nav{
+    background-color: deepskyblue;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* ! Css Module elementlere unique class id verir */
+/* Todo: Classname-ler :global(.class) olmadiqi muddetce CSS Modules ozu avtomatik olaraq classlarin sonune unique key elave edir (Ehtiyatli ol) */
+/* Classi Global edirikki her yerden el catan olsun ve className sadece olaraq test olacaq random herfler atmayacaq digerlerindeki kimi  */
+/* ! Eger classname globalda yeni esas index.css file icindedirse ve bu file her yerden elcatandirsa normal CSS qaydasi ile hemin class-i cagirmaq olur */
+:global(.test){
+    background-color: aquamarine;
+}

@@ -1,0 +1,1 @@
+1. Mueyyen datani Component Tree boyu ANA compoonentden bala -> neve -> netice -> kotukce ... conponente oturulmesein **Prop Drilling** deyilir
