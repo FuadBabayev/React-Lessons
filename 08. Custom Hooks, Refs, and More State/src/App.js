@@ -16,7 +16,7 @@ export default function App() {
   // ! If one of the hooks dissappear from list then the order of the list will get completely broken
   // Todo: useState and useRef almost similar but useRef have less power and main diffrence is that
   // ! State and Refs render boyunca davam edir, ve her defe update edende State yeniden re-render etdiyi halda Refs-ler update olmur
-  // ! useRefs-den esasen DOM elementleri(click sayi), Local/Session Storage, APIler ve setTimeOut ucun istifade olunur
+  // ! useRefs-den esasen DOM elementleri(click sayi, form), Local/Session Storage, APIler ve setTimeOut ucun istifade olunur
   // Todo: Conclusion: 
   // Todo: 1. Normal variables (const, let, var) is not persistent across renders and it doesn't trigger a re-render
   // Todo: 2. States is persistent across renders and it does trigger a re-render
