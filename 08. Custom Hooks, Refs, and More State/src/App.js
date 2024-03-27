@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import StarRating from "./StarRating";
 import { useMovies } from "./useMovies";
+import UseReference from "./UseReference"
 
 const average = (arr) => arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 const KEY = 'a37aafc2';
@@ -115,7 +116,9 @@ export default function App() {
               <WatchedMoviesList watched={watched} onDeleteWatched={handleDeleteWatched} />
             </>)}
         </Box>
-      </Main>
+      </Main> <br /> <br /> <br /> <br /> <br /> 
+
+      {true && <UseReference />}
     </>
   );
 }
