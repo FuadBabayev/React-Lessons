@@ -6,7 +6,7 @@ import TextExpanderChildren from "./TextExpanderChildren";
 const faqs = [
   {
     title: "Where are these chairs assembled?",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus."
+    text: "Lorem ipsum dolor sit amt consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus."
   },
   {
     title: "How long do I have to return my chair?",
